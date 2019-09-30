@@ -4,9 +4,9 @@
 #
 Name     : php-radius
 Version  : 1.4.0b1
-Release  : 1
-URL      : https://pecl.php.net//get/radius-1.4.0b1.tgz
-Source0  : https://pecl.php.net//get/radius-1.4.0b1.tgz
+Release  : 2
+URL      : https://pecl.php.net/get/radius-1.4.0b1.tgz
+Source0  : https://pecl.php.net/get/radius-1.4.0b1.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause

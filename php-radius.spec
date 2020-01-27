@@ -4,7 +4,7 @@
 #
 Name     : php-radius
 Version  : 1.4.0b1
-Release  : 3
+Release  : 4
 URL      : https://pecl.php.net/get/radius-1.4.0b1.tgz
 Source0  : https://pecl.php.net/get/radius-1.4.0b1.tgz
 Summary  : No detailed summary available
@@ -26,6 +26,7 @@ lib components for the php-radius package.
 
 %prep
 %setup -q -n radius-1.4.0b1
+cd %{_builddir}/radius-1.4.0b1
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -44,4 +45,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/radius.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/radius.so
